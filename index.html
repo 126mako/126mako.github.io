@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>テーマパークに行きませんか</title>
+    <title>今日どこに行く</title>
     <meta name="description" content="書籍「動くWebデザインアイディア帳」のサンプルサイトです">
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -12,9 +12,8 @@
         href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
     <link rel="stylesheet" type="text/css"
         href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-2-6/css/4-2-6.css">
-    <link rel="stylesheet" type="text/css" href="test.css">
-    <link rel="stylesheet" type="text/css" href="btndesign.css" >
-    <script src="test.js"></script>
+        <link rel="stylesheet" type="text/css" href="test.css">
+        <link rel="stylesheet" type="text/css" href="btndesign.css" >
 </head>
 
 <body>
@@ -28,15 +27,17 @@
 
     <div id="container">
         <header id="header">
-            <h1>今日はテーマパークに行きませんか？</h1>
+            <h1>今日はどこへ行きましょうか？</h1>
         </header>
 
         <main>
+            <section class="introduction">
+                <p class="intro">どこかに遊びに行きたい!そう思った時に、場所を決めるのに迷ってしまうとき、ありますよね??<br>いくつかの質問に答えるだけで、あなたに最適な遊び場を提案します。<br></p>
+                <!--/area1-->
+            </section>
             <section class="btnitems">
                 <div class="toNextbtn">
-                    <a class="desingbtn" href="index.html"><span>やり直す</span></a>
-                    <a class="desingbtn" href="javascript:void(0)" onclick="luckyItem()"><span>lucky Item</span></a>
-                    <p class="luckyitems" id="luckyItem">？？？？？</p>
+                    <a class="desingbtn" href="who.html"><span>スタート！</span></a>
                 </div>
             </section>
         </main>
@@ -51,9 +52,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-2-6/js/4-2-6.js"></script>
-    <footer>
-        Copyright &copy; Mako Okazaki, All Rights Reserved.
-    </footer>
 </body>
 
 </html>
